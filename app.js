@@ -59,3 +59,15 @@ let people = [
 for (let index = 0; index < people.length; index++) {
     checkAge(people[index].name, people[index].age)
 }
+function getLength(word) {
+    return word.length
+}
+
+let stringLength = getLength('Hello World')
+if (stringLenght % 2 === 0) {
+
+    console.log('The world is a nice and even!')
+    
+} else {
+    console.log('The world in an odd place!')
+}
